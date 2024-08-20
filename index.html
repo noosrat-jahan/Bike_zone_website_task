@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bike-40.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/afebb910b9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }              
+            }
+          }
+        }
+      </script>
+      <style>
+        .font_poppins{
+            font-family: "Poppins", sans-serif;
+        }
+      </style>
+</head>
+<body class="font_poppins">
+    <header class="bg-[#264653] text-gray-100 ">
+        <nav class="w-[90%] pt-10 flex items-center gap-20 justify-end">
+            <div class="space-x-6 hidden lg:block">
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">News</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="hidden lg:block">
+                <button class="bg-[#E76F51] px-4 py-2 rounded-md"><a href="">Login</a></button>
+            </div>     
+            <div class="text-white lg:hidden text-3xl">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </nav>      
+
+        <div class="w-[85%] mx-auto mt-16 grid grid-cols-1 lg:grid-cols-2 items-center gap-16 pb-20">
+            <div class="space-y-4">
+                <p class="text-sm text-gray-300">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-5xl font-bold">Honda CBR 300R</h1>
+                <p class="text-sm text-gray-300">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="bg-[#E76F51] px-4 py-2 rounded-md"><a href="">Purchase</a></button>
+            </div>
+            <div>
+                <img src="images/honda-cbr-300r-2.png" alt="" class="w-3/4 ">
+            </div>
+        </div>
+    </header>
+    <main>
+      <section class="mt-20 w-[90%] mx-auto">
+        <div class="text-center space-y-2">
+            <h1 class="font-bold text-3xl">Fetured Bikes In This Year</h1>
+            <h3 class="text-[#E76F51]">Best bike collection</h3>
+            <hr class="bg-[#E76F51] h-0.5 w-16 mx-auto">
+        </div>
+       
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-16">
+          <img src="images/others/feature-bike.png" alt="" class="mx-auto">
+          <img src="images/others/feature-bike.png" alt="" class="mx-auto">
+          <img src="images/others/feature-bike.png" alt="" class="mx-auto">
+        </div>
+      </section>
+          
+      <section class="mx-auto mt-32 w-[90%]">
+          <div>
+            <h1 class="font-bold text-3xl text-center mb-4">latest News</h1>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="border border-gray-300 p-4 rounded-md space-y-3">
+              <img src="images/others/latest1.png" alt="">
+              <h2 class="font-bold">Ducati XDIAVEL S-73</h2>
+              <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <button class="bg-[#E76F51] px-4 py-2 rounded-md text-white">Read More</button>
+            </div>
+
+            <div class="border border-gray-300 p-4 rounded-md space-y-3">
+              <img src="images/others/latest2.png" alt="">
+              <h2 class="font-bold">Motorcycles & Scooters</h2>
+              <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <button class="border border-[#E76F51] text-[#E76F51] px-4 py-2 rounded-md">Read More</button>
+            </div>
+
+            <div class="border border-gray-300 p-4 rounded-md space-y-3">
+              <img src="images/others/latest3.png" alt="">
+              <h2 class="font-bold">2021 Honda CBR500R</h2>
+              <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <button class="border border-[#E76F51] text-[#E76F51] px-4 py-2 rounded-md">Read More</button>
+            </div>
+          </div>
+      </section>
+
+      <section class="mt-36 mb-32 mx-auto w-[80%]">
+        <div>
+          <h1 class="font-bold text-4xl text-center mb-10">Happy <span class="text-[#E76F51]">Clients says</span></h1>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 text-center">
+          <div class="border border-gray-300 p-4 flex flex-col items-center space-y-4">
+            <img src="images/others/user-1.png" alt="" class="w-1/2">
+            <p class="w-2/3">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+              <div class="text-[#E76F51]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div> 
+            <h4 class="text-[#23A6F0] font-bold">Regina Miles</h4>
+            <h3 class="font-bold">Banker</h3>
+          </div>
+          <div class="border border-gray-300 p-4 flex flex-col items-center space-y-4">
+            <img src="images/others/user-2.png" alt="" class="w-1/2">
+            <p class="w-2/3">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+              <div class="text-[#E76F51]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div> 
+            <h4 class="text-[#23A6F0] font-bold">Regina Miles</h4>
+            <h3 class="font-bold">Banker</h3>
+          </div>
+          <div class="border border-gray-300 p-4 flex flex-col items-center space-y-4">
+            <img src="images/others/user-3.png" alt="" class="w-1/2">
+            <p class="w-2/3">Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+              <div class="text-[#E76F51]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>              
+            <h4 class="text-[#23A6F0] font-bold">Regina Miles</h4>
+            <h3 class="font-bold">Banker</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto w-[80%] mb-32">
+        <div>
+          <h1 class="font-bold text-4xl text-center mb-20">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1>
+        </div>
+
+        <div class="grid grid-cols-2 gap-6">
+          <div>
+            <img src="images/others/Frame.png" alt="">
+          </div>
+          <div></div>
+        </div>
+      </section>
+    </main>
+    <footer class="w-full mx-auto bg-[#0B0D17] flex flex-col gap-6 lg:flex-row lg:justify-around items-center py-24 text-gray-300 text-sm">
+        <div class="space-y-4 w-[93%] lg:ml-16">
+            <div class="space-x-4">
+              <a href="">Download Now</a>
+              <a href="">License</a>
+            </div>
+            <div class="space-x-2 ">
+              <a href="">About</a>
+              <a href="">Features</a>
+              <a href="">Pricing</a>
+              <a href="">Careers</a>
+              <a href="">Help</a>
+              <a href="">Privacy Policy</a>
+            </div>
+            <p>© 2020 bike. All rights reserved</p>
+        </div>
+        <div class="space-y-4 w-[93%]">
+          <p class="text-lg">Get the App</p>
+          <img src="images/others/android.png" alt="" class="w-1/3">
+          <img src="images/others/ios.png" alt="" class="w-1/3">
+        </div>
+    </footer>
+</body>
+</html>
